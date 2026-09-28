@@ -1,0 +1,7 @@
+[build]
+  # The repository root is the base directory. This overrides any invalid
+  # "Base directory" value set in the Netlify UI.
+  base = "."
+  # The site is committed pre-built in `dist`, so no build step is required.
+  command = "echo 'Using pre-built site in dist'"
+  publish = "dist"
